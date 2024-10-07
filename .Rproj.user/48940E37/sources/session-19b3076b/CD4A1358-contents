@@ -4,11 +4,9 @@ toc: false  # Remove the table of contents
 ---
 
 <!-- Adding Typed.js script -->
-
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <!-- Adding CSS for the container, buttons, and theme -->
-
 <style>
   body {
     background-color: #2C2C2C; /* Dark gray background */
@@ -46,9 +44,9 @@ toc: false  # Remove the table of contents
   }
 
   .button {
-    padding: 10px 10px;
+    padding: 5px 5px;
     margin: 5px;
-    font-size: 1em;
+    font-size: .8em;
     color: white;
     background-color: #20B2AA; /* Ocean green background */
     border: none;
@@ -64,22 +62,22 @@ toc: false  # Remove the table of contents
 </style>
 
 <!-- Container for the animated typing text -->
-
-::: typed-container
-:::
+<div class="typed-container">
+  <span id="typed-text"></span>
+</div>
 
 <!-- Hidden buttons -->
-
-::: {#button-container .hidden-buttons}
-<a href="sobre.qmd" class="button">Conheça melhor minha trajetória,</a> <a href="portifolio.qmd" class="button">meu portfólio</a> <a href="servicos.qmd" class="button">e os serviços oferecidos</a>
-:::
+<div id="button-container" class="hidden-buttons">
+<a href="sobre.qmd" class="button">Conheça melhor minha trajetória,</a>
+  <a href="portifolio.qmd" class="button">meu portfólio</a>
+  <a href="servicos.qmd" class="button">e os serviços oferecidos</a>
+</div>
 
 <!-- Typed.js script to animate the text -->
-
 <script>
   var options = {
     strings: [
-      "Me chamo <strong>Lucca Nielsen</strong> e atuo como <strong>analista de dados</strong> especializado em desenvolver soluções para a área da <strong>Saúde Pública</strong>, <strong>Vigilância Epidemiológica</strong> e diversos outros setores. Se você precisa <strong>entender</strong> melhor os dados da sua organização ou do seu projeto de pesquisa, <strong>automatizar</strong> rotinas e processos, <strong>desenvolver</strong> dashboards e sites interativos ou se quiser simplesmente <strong>aprender</strong> sobre uso da linguaguem de programação <strong>R</strong> aplicada, talvez eu possa te ajudar!"
+      "Me chamo <strong>Lucca Nielsen</strong> e atuo como <strong>analista de dados</strong> especializado em desenvolver soluções para a área da <strong>Saúde Pública</strong>, <strong>Vigilância Epidemiológica</strong> e outros setores. Se você precisa <strong>entender</strong> melhor os dados da sua organização ou do seu projeto de pesquisa, <strong>automatizar</strong> rotinas, <strong>desenvolver</strong> dashboards/painéis interativos ou se quiser simplesmente <strong>aprender</strong> sobre uso da linguaguem de programação <strong>R</strong> aplicada, talvez eu possa te ajudar!"
     ],
     typeSpeed: 25,
     backSpeed: 0,

@@ -7,7 +7,7 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Sobre Mim
+      - text: Minha trajetória
         href: sobre.qmd
       - text: Portfólio
         href: portifolio.qmd
