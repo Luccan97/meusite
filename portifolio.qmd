@@ -46,7 +46,6 @@ Este projeto é um aplicativo web interativo, desenvolvido em <strong>Shiny R</s
 </p>
 :::
 
-
 ## [Boletim epidemiológico SIM-P/SIM-A](https://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-de-transmissao-respiratoria/coronavirus/simp/2024/simpse08_fev2024.pdf){target="_blank"}
 
 ::: project-container
@@ -71,10 +70,6 @@ Este Shiny app do Mapa da Desigualdade entre as Capitais Brasileiras apresenta 4
 </p>
 :::
 
-
-
-
-
 ## [Painel de monitoramento de animais sinantrópicos](https://lnielsen97.shinyapps.io/monitoraAnimais156SP/){target="_blank"}
 
 ::: project-container
@@ -87,8 +82,6 @@ Esta aplicação Shiny monitora solicitações de serviços relacionados a anima
 </p>
 :::
 
-
-
 ## [Mapa de Justiça Reprodutiva](https://mapajusticareprodutiva.org.br/){target="_blank"}
 
 ::: project-container
@@ -100,11 +93,6 @@ O Mapa da Justiça Reprodutiva é um projeto do Coletivo Feminista Sexualidade e
 
 </p>
 :::
-
-
-
-
-
 
 ## [Análises espaciais, espaço-temporais e de fluxos de origem-destino](https://www.scielo.br/j/rimtsp/a/NTFb6Mb96zPbbLDWg4bTvqz/?lang=en#){target="_blank"}
 
