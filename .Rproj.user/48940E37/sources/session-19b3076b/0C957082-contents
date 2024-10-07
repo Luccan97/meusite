@@ -1,0 +1,65 @@
+/* Global styles */
+body {
+  background-color: #2C2C2C; /* Dark gray background */
+  color: #FFFFFF; /* Default white text */
+   font-family: 'Fira Code', monospace;
+}
+
+/* Estilo específico para a classe navbar */
+.navbar {
+  background-color: #2C2C2C; /* Cor de fundo */
+  color: #FFFFFF; /* Cor do texto */
+}
+
+.navbar a {
+  color: #20B2AA; /* Ocean green para os links */
+}
+
+.navbar a:hover {
+  color: #1A938B; /* Cor mais escura no hover */
+}
+
+
+/* Container styles */
+.typed-container {
+  background-color: #333333; /* Slightly lighter gray for the box */
+  color: #FFFFFF; /* White text for the box */
+  font-size: 1.5em;
+  padding: 20px; /* Add some padding inside the box */
+  margin: 0 auto; /* Center the box */
+  max-width: 800px; /* Limit the horizontal size */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #444444; /* Darker gray border */
+  white-space: pre-wrap; /* Ensure lines break naturally */
+  text-align: justify; /* Justify the text alignment */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+}
+
+/* Color for the strong (bold) text */
+.typed-container strong {
+  color: #20B2AA; /* Ocean green for bold text */
+}
+
+/* Button styles */
+.hidden-buttons {
+  display: none; /* Initially hidden */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  color: white;
+  background-color: #20B2AA; /* Ocean green background */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Button shadow */
+}
+
+.button:hover {
+  background-color: #1A938B; /* Darker ocean green on hover */
+}
