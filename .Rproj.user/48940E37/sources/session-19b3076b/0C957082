@@ -3,7 +3,7 @@
     "path": "~/projetos pessoais/meusite/meusite/styles.css",
     "project_path": "styles.css",
     "type": "css",
-    "hash": "0",
+    "hash": "559187855",
     "contents": "",
     "dirty": false,
     "created": 1728306196890.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "65,0",
-        "scrollLine": "0"
+        "cursorPosition": "66,0",
+        "scrollLine": "34"
     },
     "folds": "",
-    "lastKnownWriteTime": 1728169967,
+    "lastKnownWriteTime": 1728309184,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1728169967,
+    "last_content_update": 1728309184887,
     "read_only": false,
     "read_only_alternatives": []
 }
