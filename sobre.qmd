@@ -1,0 +1,120 @@
+---
+title: ""
+---
+
+<!-- Estilo para justificar o texto, destacar os headers principais em Ocean Green e criar o dropdown -->
+
+<style>
+  p {
+    text-align: justify;
+  }
+  h1 {
+    color: #48A9A6; /* Ocean Green */
+  }
+   h2 {
+    color: #48A9A6; /* Ocean Green */
+  }
+    a {
+    color: #48A9A6; /* Ocean Green */
+  }
+  .dropdown-container {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .dropdown-summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    margin-top: 10px;
+  }
+  .dropdown-container[open] .dropdown-content {
+    display: block;
+  }
+</style>
+
+# O início da minha trajetória profissional
+
+<p>Sou Lucca Nielsen, nascido em Ribeirão Preto, mas passei boa parte da minha infância e adolescência em Florianópolis. Atualmente, moro em São Paulo, onde me formei em Saúde Pública pela Universidade de São Paulo (USP).</p>
+
+<p>Desde o início da graduação, me encantei pelo mundo dos dados. Tudo começou com uma disciplina optativa chamada análise espacial em saúde, onde tive meu primeiro contato com <strong>Sistemas de Informação Geográfica (GIS)</strong>. Trabalhamos com dados georreferenciados de casos de dengue para criar mapas incríveis, e foi aí que percebi o poder que os dados podem ter quando visualizados da forma certa.</p>
+
+<p>Pouco tempo depois, consegui um estágio na <a href="https://capital.sp.gov.br/web/saude/epidemiologia_e_informacao" target="_blank">Coordenação de Epidemiologia e Informação (CEINFO)</a> na Secretaria Municipal de São Paulo. Durante quase dois anos lá, ajudei a produzir mapas físicos para as áreas de abrangência das Unidades Básicas de Saúde e realizei diversas análises espaciais de interesse para a saúde pública.</p>
+
+<p>Meu primeiro contato com uma linguagem de programação aconteceu durante esse estágio: eu precisava gerar gráficos de pirâmides etárias para os 97 distritos administrativos de São Paulo. No início, fazia manualmente no Excel, mas quando percebi que esse processo seria longo e tedioso, a "voz da preguiça produtiva" me fez pensar: não deve existir um jeito mais fácil de fazer isso? Foi quando, com a ajuda de um colega formado em ciência da computação, descobri o <strong>R</strong>. Em questão de minutos, criamos um script que automatizou todo o processo e, em poucos cliques, todos os gráficos estavam prontos. Fiquei fascinado! Desde então, o <strong>R</strong> tem sido uma ferramenta indispensável no meu dia a dia.</p>
+
+<p>No início de 2020, com o avanço da pandemia de COVID-19, fui convidado a integrar a equipe da Divisão de Doenças de Transmissão Respiratória do <a href="https://www.saude.sp.gov.br/cve-centro-de-vigilancia-epidemiologica-prof.-alexandre-vranjac/" target="_blank">Centro de Vigilância Epidemiológica (CVE)</a> do Estado de São Paulo. Com o aumento exponencial no volume de dados e trabalho, o foco era contratar profissionais com experiência em análise de dados e <strong>R</strong> para automatizar rotinas e desenvolver painéis de monitoramento (dashboards) das doenças.</p>
+
+<p>
+
+Durante esse período, me aprofundei no uso do <strong>R</strong>, criando scripts em <strong>RMarkdown</strong> para automatizar a atualização de boletins epidemiológicos, o que economizou um tempo significativo. Além disso, com o <strong>Shiny</strong>, elaboramos dashboards internos e externos para monitorar o avanço da pandemia.
+
+Além disso também tive a oportunidade de colaborar em diversos artigos científicos, que marcaram minha trajetória profissional.
+
+</p>
+
+<details class="dropdown-container" style="background-color: #1A938B; border-radius: 5px; padding: 10px;">
+
+<summary class="dropdown-summary" style="color: white; font-weight: bold; cursor: pointer;">
+
+Clique aqui para ver os artigos científicos que publiquei
+
+</summary>
+
+::: {.dropdown-content style="background-color: #1A938B; color: white; padding: 10px; border-radius: 5px;"}
+<a href="https://periodicos.saude.sp.gov.br/BEPA182/article/view/37882" target="_blank" style="color: black; font-weight: bold;">1.</a> Vigilância e controle de doenças de transmissão respiratória. BEPA (2023)
+
+<br>
+
+<a href="https://www.scielo.br/j/rimtsp/a/NTFb6Mb96zPbbLDWg4bTvqz/?lang=en#" target="_blank" style="color: black; font-weight: bold;">2.</a> Spatial, spatio-temporal, and origin-destination flow analyses of patients with severe acute respiratory syndrome hospitalized for COVID-19 in Southeastern Brazil, 2020-2021. Revista do Instituto de Medicina Tropical de São Paulo (2023)
+
+<br>
+
+<a href="https://www.mdpi.com/1660-4601/20/18/6749" target="_blank" style="color: black; font-weight: bold;">3.</a> Local Food Environment and Consumption of Ultra-Processed Foods: Cross-Sectional Data from the Nutritionists’ Health Study-NutriHS. International Journal of Environmental Research and Public Health (2023)
+
+<br>
+
+<a href="https://www.scielo.br/j/rbepid/a/scMYQN96Dx5nJzNmRrDFYTM/?lang=pt" target="_blank" style="color: black; font-weight: bold;">4.</a> COVID-19 no estado de São Paulo: a evolução de uma pandemia. Revista Brasileira de Epidemiologia (2021)
+
+<br>
+
+<a href="https://www.saude.sp.gov.br/resources/ccd/homepage/bepa/edicoes-2021/bepa_215_2.pdf" target="_blank" style="color: black; font-weight: bold;">5.</a> Resposta à pandemia de COVID-19 no estado de São Paulo. BEPA (2021)
+
+<br>
+
+<a href="https://periodicos.saude.sp.gov.br/BEPA182/issue/view/2647/397" target="_blank" style="color: black; font-weight: bold;">6.</a> Surtos de COVID-19 em unidades escolares do Estado de São Paulo. BEPA (2021)
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+# Atualmente
+
+### Minha experiência na Applied Epi
+
+<p>No início de 2023, tive a oportunidade de começar a trabalhar com a <a href="https://www.appliedepi.org/" target="_blank">Applied Epi</a>, uma organização internacional sem fins lucrativos cujo principal objetivo é fortalecer os profissionais da linha de frente — epidemiologistas e especialistas em saúde pública — por meio de treinamentos práticos e cursos de <strong>R</strong> aplicados às rotinas de vigilância epidemiológica.</p>
+
+<p>Essa experiência tem sido muito boa, nunca imaginei que teria a chance de auxiliar em aulas para profissionais da saúde de diversos países, como Bélgica, Ruanda, Estados Unidos, Filipinas, Índia, Malásia, Canadá, Inglaterra e muitos outros. Cada aula é uma oportunidade de compartilhar conhecimento e aprender com realidades distintas ao redor do mundo.</p>
+
+<p>Além de auxiliar nas aulas, também tenho apoiado a equipe da <strong>Applied Epi</strong> em processos de tradução técnica de diversos materiais para o português, garantindo que os conteúdos estejam acessíveis a uma audiência ainda maior e contribuindo para o fortalecimento da vigilância epidemiológica global.</p>
+
+------------------------------------------------------------------------
+
+### Instituto Cidades Sustentáveis
+
+<p>Também no início de 2023, juntei-me ao <a href="https://icidadessustentaveis.org.br/" target="_blank">Instituto Cidades Sustentáveis</a>, onde atuo como analista de dados. Minha função envolve ajudar a produzir, monitorar e interpretar diversos indicadores relacionados aos <strong>Objetivos de Desenvolvimento Sustentável (ODS)</strong> da <strong>OMS</strong>. Trabalhar com esses dados tem sido especialmente interessante ao ver como alguns produtos gráficos e relatórios geram discussões relevantes nas redes sociais e entre tomadores de decisão.</p>
+
+# Próximos passos....
+
+### Pós-graduação
+
+Atualmente, estou cursando um mestrado no Departamento de Medicina Preventiva da USP, onde meu projeto de pesquisa se baseia em um extenso banco de dados de casos hospitalizados de COVID-19 no Hospital das Clínicas. Esses dados foram gerados a partir de uma parceria entre a OPAS e diversos hospitais, com o objetivo de contribuir para uma plataforma global de dados clínicos sobre COVID-19. Minha expectativa é, em breve, lançar minha dissertação em formato de um livro interativo online, acessível e dinâmico.
+
+### Esse site
+
+<p>E... este site reflete também um desejo pessoal: começar a oferecer alguns serviços de forma autônoma! Dá uma olhada na página de <a href="servicos.qmd" target="_blank" style="background-color: #1A938B; color: white; padding: 3px 3px; text-decoration: none; border-radius: 5px;">Serviços</a> para saber mais e visite meu <a href="portifolio.qmd" target="_blank" style="background-color: #1A938B; color: white; padding: 3px 3px; text-decoration: none; border-radius: 5px;">Portfólio</a>!</p>

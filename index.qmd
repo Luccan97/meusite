@@ -1,0 +1,94 @@
+---
+title: "Olá,"
+toc: false  # Remove the table of contents
+---
+
+<!-- Adding Typed.js script -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- Adding CSS for the container, buttons, and theme -->
+<style>
+  body {
+    background-color: #2C2C2C; /* Dark gray background */
+    color: #FFFFFF; /* Default white text */
+  }
+
+  .typed-container {
+    background-color: #333333; /* Slightly lighter gray for the box */
+    color: #FFFFFF; /* White text for the box */
+    font-size: 1.3em;
+    padding: 20px 20px; /* Add some padding inside the box */
+    margin: 0 auto; /* Center the box */
+    width: 100%; /* Ocupa 90% da largura da tela */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #444444; /* Darker gray border */
+    white-space: pre-wrap; /* Ensure lines break naturally */
+    text-align: justify; /* Justify the text alignment */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+  }
+
+  /* Color for the strong (bold) text */
+  .typed-container strong {
+    color: #20B2AA; /* Ocean green for bold text */
+  }
+
+  .typed-text {
+    white-space: normal; /* Allow line breaks */
+  }
+
+  /* Button styles */
+  .hidden-buttons {
+    display: none; /* Initially hidden */
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .button {
+    padding: 10px 10px;
+    margin: 5px;
+    font-size: 1em;
+    color: white;
+    background-color: #20B2AA; /* Ocean green background */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .button:hover {
+    background-color: #1A938B; /* Darker ocean green on hover */
+  }
+</style>
+
+<!-- Container for the animated typing text -->
+<div class="typed-container">
+  <span id="typed-text"></span>
+</div>
+
+<!-- Hidden buttons -->
+<div id="button-container" class="hidden-buttons">
+<a href="sobre.qmd" class="button">Conheça melhor minha trajetória,</a>
+  <a href="portifolio.qmd" class="button">meu portfólio</a>
+  <a href="servicos.qmd" class="button">e os serviços oferecidos</a>
+</div>
+
+<!-- Typed.js script to animate the text -->
+<script>
+  var options = {
+    strings: [
+      "Me chamo <strong>Lucca Nielsen</strong> e atuo como <strong>analista de dados</strong> especializado em desenvolver soluções para a área da <strong>Saúde Pública</strong>, <strong>vigilância epidemiológica</strong> e diversos outros setores. Se você precisa <strong>entender</strong> melhor os dados da sua organização ou do seu projeto de pesquisa, <strong>automatizar</strong> rotinas e processos, <strong>desenvolver</strong> dashboards e sites interativos ou se quiser simplesmente <strong>aprender</strong> sobre uso da linguaguem de programção <strong>R</strong> aplicada, talvez eu possa te ajudar! Vamos transformar seus dados em insights práticos e eficientes."
+    ],
+    typeSpeed: 25,
+    backSpeed: 0,
+    loop: false,
+    showCursor: true,
+    cursorChar: '|',
+    onComplete: function() {
+      // Show the buttons when the typing is complete
+      document.getElementById('button-container').style.display = 'block';
+    }
+  };
+
+  var typed = new Typed("#typed-text", options);
+</script>

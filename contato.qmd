@@ -1,0 +1,71 @@
+---
+title: ""
+---
+
+## Gostaria de discutir um projeto ou saber mais sobre os serviços que ofereço?
+<br><br>
+
+### Entre em Contato pelas minhas redes sociais
+
+<br>
+- **LinkedIn**: [lhttps://www.linkedin.com/in/lucca-nielsen-53b2a9181/](https://www.linkedin.com/in/lucca-nielsen-53b2a9181/)
+<br>
+- **GitHub**: [https://github.com/Luccan97](https://github.com/Luccan97)
+<br><br>
+
+### Ou me envie um e-mail
+
+<br>
+<!-- modify this form HTML and place wherever you want your form -->
+<!-- Estilo personalizado para o formulário -->
+<style>
+  form {
+    font-size: 18px; /* Tamanho da fonte maior */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  label {
+    color: #1A938B; /* Ocean Green */
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #1A938B; /* Ocean Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #148176; /* Cor mais escura ao passar o mouse */
+  }
+</style>
+
+<form action="https://formspree.io/f/mvgoprwl" method="POST">
+  <label for="email">Seu email:</label>
+  <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+  <label for="message">Sua mensagem:</label>
+  <textarea id="message" name="message" rows="6" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>

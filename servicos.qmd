@@ -1,0 +1,94 @@
+---
+title: ""
+---
+
+<style>
+  /* Estilo para alinhar ícones e texto lado a lado */
+  .service-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .service-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .service-icon {
+    width: 60px; /* Aumentei o tamanho dos ícones */
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  h2, h3 {
+    color: #48A9A6; /* Ocean Green */
+  }
+
+  p {
+    text-align: justify;
+    color: white; /* Texto branco */
+    margin: 0;
+  }
+
+  .highlight {
+    color: #48A9A6; /* Ocean Green para destacar termos relevantes */
+    font-weight: bold;
+  }
+</style>
+
+## 1. Aulas Particulares
+
+Nesta categoria, ofereço aulas personalizadas com foco nas principais ferramentas e técnicas de análise de dados utilizando <span class="highlight">R</span>. Confira as subcategorias abaixo:
+
+<table class="service-table">
+  <tr class="service-row">
+    <td><img class="service-icon" src="https://img.icons8.com/fluency/48/000000/r-project.png" alt="Ícone R Básico"></td>
+    <td>
+      <h3>R Básico</h3>
+      <p>Aprenda os fundamentos de <span class="highlight">R</span>, desde a manipulação de dados até a criação de gráficos básicos, em um ritmo adaptado ao seu conhecimento.</p>
+    </td>
+  </tr>
+  <tr class="service-row">
+    <td><img class="service-icon" src="rmd.png" alt="Ícone RMarkdown"></td>
+    <td>
+      <h3>Automatização de Relatórios com RMarkdown</h3>
+      <p>Automatize a criação de relatórios dinâmicos que se atualizam automaticamente, economizando tempo e garantindo consistência com <span class="highlight">RMarkdown</span>.</p>
+    </td>
+  </tr>
+  <tr class="service-row">
+    <td><img class="service-icon" src="shiny.png" alt="Ícone Shiny"></td>
+    <td>
+      <h3>Criação de Aplicativos Web e Dashboards com Shiny</h3>
+      <p>Aprenda a desenvolver dashboards e aplicativos interativos com <span class="highlight">Shiny</span> para visualizar e explorar dados de maneira prática e eficiente.</p>
+    </td>
+  </tr>
+  <tr class="service-row">
+    <td><img class="service-icon" src="ggplot.png" alt="Ícone ggplot2"></td>
+    <td>
+      <h3>Gráficos Avançados com ggplot2</h3>
+      <p>Crie visualizações complexas e personalizadas utilizando <span class="highlight">ggplot2</span>, explorando suas inúmeras possibilidades de design e interação.</p>
+    </td>
+  </tr>
+</table>
+
+## 2. Consultoria
+
+Ofereço serviços de consultoria para diferentes públicos, ajudando desde estudantes até organizações a extrair insights valiosos e visualizações de seus dados.
+
+<table class="service-table">
+  <tr class="service-row">
+    <td><img class="service-icon" src="https://img.icons8.com/fluency/48/000000/student-center.png" alt="Ícone Estudantes"></td>
+    <td>
+      <h3>Para Estudantes de Graduação e Pós-Graduação</h3>
+      <p>Auxílio personalizado para entender e interpretar os dados de seu projeto de pesquisa, além de suporte na criação de gráficos e relatórios.</p>
+    </td>
+  </tr>
+  <tr class="service-row">
+    <td><img class="service-icon" src="https://img.icons8.com/fluency/48/000000/organization.png" alt="Ícone Organizações"></td>
+    <td>
+      <h3>Para Organizações</h3>
+      <p>Consultoria para explorar e entender os dados organizacionais, criando <span class="highlight">dashboards</span>, relatórios detalhados e estratégias baseadas em dados para tomada de decisões informadas.</p>
+    </td>
+  </tr>
+</table>

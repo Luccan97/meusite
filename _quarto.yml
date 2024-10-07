@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Lucca Nielsen"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Sobre Mim
+        href: sobre.qmd
+      - text: Portfólio
+        href: portifolio.qmd
+      - text: Serviços
+        href: servicos.qmd
+      - text: Contato
+        href: contato.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/luccan97
+      - icon: linkedin
+        href: https://linkedin.com/in/luccan97
+
+format:
+  html:
+    css: styles.css  # Add the path to your CSS file
+
+resources:
+  - imagens/   # Inclui a pasta imagens no build final
+
+# Diretório de saída configurado para a pasta docs, que é usada pelo GitHub Pages
+output-dir: docs
+
+publish:
+  gh-pages: true
+
+editor: visual
